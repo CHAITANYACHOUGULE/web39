@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regestration form</title>
+</head>
+<body>
+
+    <div class="rform" style="margin-left: 390px;border: 2px solid black;width: 350px;height: 620px; background-color: rgb(40, 179, 221);">
+    <h2 style="display: flex;justify-content: center">Regestration form</h2>
+    <HR>
+
+    <form action="" method="get" style="margin-left: 15px">
+        First name: 
+        <input type="text" name="fname"/><br><br>
+        Middle name:
+        <input type="text" name="mname"/><br><br>
+        Last name:
+        <input type="text" name="lname"/><br><br>
+        Enter mail:
+        <input type="email" name="email"/><br><br>
+        Password:
+        <input type="password" name="password"/><br><br>
+        Gender:
+        Male:
+        <input type="radio" id="male" name="gender" value="male">
+        Female:
+        <input type="radio" id="female" name="gender" value="female">
+        Other:
+        <input type="radio" id="other" name="gender" value="other">
+
+
+
+        <br><br>
+        Course:
+        <select name="course" id="cid">
+            <option value="course">Course</option>
+            <option value="course">Btech</option>
+            <option value="course">Mtech</option>
+            <option value="course">Bca</option>
+        </select><br><br>
+
+        Phone no:
+        <input type="text" name="country code" value="+91" size="2">
+        <input type="text" name="phone"><br><br>
+
+        Address: <BR>
+        <textarea name="address" id="addr" cols="30" rows="10" style="margin-left: 55px"></textarea>
+        <br><br>
+
+        <button style="margin-left: 120px">
+            Submit
+        </button>
+        
+    </form>
+    </div>
+</body>
+</html>

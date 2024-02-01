@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet type="text/css" href="lib.xsl"?>
+
+<booklibrary>
+    <book>
+        <bookname>XML</bookname>
+        <price>500</price>
+        <author>Robert</author>
+        <publisher>TMH</publisher>
+    </book>
+    <book>
+        <bookname>HTML</bookname>
+        <price>300</price>
+        <author>Alex</author>
+        <publisher>TMH</publisher>
+    </book>
+    <book>
+        <bookname>CSS</bookname>
+        <price>100</price>
+        <author>John</author>
+        <publisher>TMH</publisher>
+    </book>
+</booklibrary>

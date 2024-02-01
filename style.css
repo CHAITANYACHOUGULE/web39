@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.profilephoto{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
